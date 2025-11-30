@@ -56,9 +56,13 @@ python task2/compare_methods.py
 
 ## Results
 
-Results are stored in the `results/` directory (download from cloud - not tracked in Git).
+Results are stored in the `results/` directory (not tracked in Git due to size).
 
-**Download results:** [TUCloud Link] (ask team for access)
+**Download results:** https://tucloud.tuwien.ac.at/index.php/s/28D4SWoRYTqfj2e
+
+After downloading:
+1. Unzip `NLP_milestone2_results.zip`
+2. Place the `results/` folder inside `task2/`
 
 ### Result Files:
 - `ml_baseline_results.json` - Quantitative metrics for all ML models
