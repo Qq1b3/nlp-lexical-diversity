@@ -1,21 +1,29 @@
-# Python (keep caches tracked per user's request)
-# __pycache__/
+# Python
+__pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-# Keep venv/ directory structure but ignore contents (can be changed if needed)
 venv/
 env/
 *.egg-info/
 dist/
 build/
 
-# Data directories (track datasets per user's request; keep processed_data ignored)
-#processed_data/
-# datasets/
-# Still ignore any large archives anywhere
-#*.tar.gz
+# Data directories
+processed_data/
+datasets/
+*.tar.gz
+
+# Task 2 - Results (download from cloud)
+task2/results/
+
+# Task 2 - PDFs and extracted text (reference materials)
+task2/*.pdf
+task2/*.txt
+
+# Experiment tracking
+wandb/
 
 # IDE
 .vscode/

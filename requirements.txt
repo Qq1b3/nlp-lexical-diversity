@@ -9,3 +9,18 @@ nltk>=3.6
 # Optional but recommended for better tokenization
 spacy>=3.0.0
 
+# Machine Learning
+scikit-learn>=1.0.0
+torch>=2.0.0
+
+# Experiment tracking
+wandb>=0.15.0
+
+# GPU monitoring
+pynvml>=11.0.0
+
+# CPU and RAM monitoring
+psutil>=5.8.0
+
+# Lexical diversity measures
+lexicalrichness>=0.1.0
